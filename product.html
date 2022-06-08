@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Site</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <!-- normalize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom utilities css -->
+    <link rel="stylesheet" href="css/utilities.css">
+    <!-- custom main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/task2.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/reponsive.css">
+
+</head>
+
+<body style="background-color: #F9F3EB;">
+
+    <div class="holder">
+        <!-- navbar -->
+        <nav class="navbar bg-brown flex">
+            <div class="container flex">
+                <div class="toggler-and-category bg-brown text-white flex">
+                    <button type="button" class="btn navbar-show-btn text-white">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="category-list">
+                        <span>Category</span>
+                        <button type="button" class="btn category-toggler-btn text-white">
+                            <i class="fas fa-circle-arrow-down"></i>
+                        </button>
+                    </div>
+
+                    <!-- side navbar -->
+                    <ul id="side-navbar" class="bg-white text-uppercase">
+                        <button type="button" class="btn navbar-hide-btn text-dark">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">featured</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                    <!-- end of side navbar -->
+
+                    <ul id="category-list-items" class="bg-white">
+                        <li><a href="#">Small Furniture</a></li>
+                        <li><a href="#">NIghtstands</a></li>
+                        <li><a href="#">Dressers</a></li>
+                        <li><a href="#">Bookcase</a></li>
+                        <li><a href="#">Coffee Tables</a></li>
+                        <li><a href="#">Mattresses</a></li>
+                        <li><a href="#">Sofas</a></li>
+                        <li><a href="#">Chairs</a></li>
+                        <li><a href="#">Hall Trees</a></li>
+                        <li><a href="#">Furniture Stores</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- main navigation list -->
+                <div class="navbar-collapse flex">
+                    <!-- nav list -->
+                    <ul class="navbar-nav text-uppercase">
+                        <li class="nav-item">
+                            <a href="./test.html" class="nav-link active-link">
+                                <span class="nav-link-text">home</span>
+                                <span class="dropdown-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="nav-link-text">featured</span>
+                                <span class="dropdown-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="nav-link-text">shop</span>
+                                <span class="dropdown-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="nav-link-text">blog</span>
+                                <span class="dropdown-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./product.html" class="nav-link">
+                                <span class="nav-link-text">about</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./Contact.html" class="nav-link">
+                                <span class="nav-link-text">contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- end of nav list -->
+
+                    <!-- account icons -->
+                    <div class="account-info">
+                        <a href="#" class="btn text-white">
+                            <i class="fas fa-person"></i>
+                        </a>
+                        <a href="#" class="btn text-white">
+                            <i class="fas fa-shopping-basket"></i>
+                        </a>
+                    </div>
+                    <!-- end of account icons -->
+                </div>
+                <!-- end of main navigation list -->
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+
+<section class="category py bg-light-brown" id="category">
+    <div class="container">
+        <div class="category-content grid">
+            <div class="category-item">
+                <img src="images/category_img_1.png">
+                <div class="category-badge bg-white text-dark flex">Sofa Set</div>
+            </div>
+            <div class="category-item">
+                <img src="images/category_img_2.png">
+                <div class="category-badge bg-white text-dark flex">Sofa Set</div>
+            </div>
+            <div class="category-item">
+                <img src="images/category_img_3.png">
+                <div class="category-badge bg-white text-dark flex">Sofa Set</div>
+            </div>
+            <div class="category-item">
+                <img src="images/category_img_4.png">
+                <div class="category-badge bg-white text-dark flex">Sofa Set</div>
+            </div>
+            <div class="category-item">
+                <img src="images/category_img_5.png">
+                <div class="category-badge bg-white text-dark flex">Sofa Set</div>
+            </div>
+            <div class="category-item">
+                <img src="images/category_img_6.png">
+                <div class="category-badge bg-white text-dark flex">Sofa Set</div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container" style="background-color: #F9F3EB;padding: .5%;">
+    <div class="about-us-content">
+
+        <div class="row" style="display:flex; margin-top:4% ;">
+            <div class="col-lg-6 col-md-6 col-sm-6 right">
+                <a href="#">
+                    <img class="img-fluid" src="./images/1.jpg" alt="#" width="100%" />
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 m-5 left" style="margin-left:3%;">
+                <div class="cms-block f-right">
+                    <h3 class="page-subheading">WHO WE ARE</h3>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin, lorem quis biben
+                        dum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis
+                        sed odio sit amet nibh vultate cursus a sit amet mauris. Duis sed odio sit
+                        amet nibh vultate cursus a sit amet mauris.</p>
+                    <p>Proin gravida nibh vel velit auctor aliquet. nec sagittis sem nibh id elit. Duis
+                        sed odio sit amet nibh vultate cursus a sit amet mauris. Duis sed odio sit
+                        amet nibh vultate cursus a sit amet mauris.</p>
+                    <a>
+                        <img class="img-fluid" src="./images/4.png" alt="#" style="width:10% ;" />
+                        <span>Mr. kwang shang - CEO</span>
+                    </a>
+                </div>
+                </di>
+            </div>
+        </div>
+    </div>
+
+        
+        <!-- footer -->
+            <footer class="footer bg-light-brown" id="footer">
+                <div class="container">
+                    <div class="footer-content py grid text-center">
+                        <div class="footer-item">
+                            <h3>Furnish.com</h3>
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorem
+                                consequuntur saepe tenetur deserunt harum error quae sint voluptas sunt, autem, totam
+                                amet
+                                officiis nesciunt eos cupiditate ipsa!</p>
+                            <ul class="social-links flex">
+                                <li>
+                                    <a href="https://www.facebook.com" class="flex"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="flex"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="flex"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="flex"><i class="fab fa-pinterest"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-item">
+                            <h3>Contact Us</h3>
+                            <p class="text">123, ITI Street, Shiben Elkoum, Menfia, Egypt</p>
+                            <p class="text">Phone: +01099036072</p>
+                            <p class="text">Email: asma.m.afifi@gmail.com</p>
+                        </div>
+
+                        <div class="footer-item">
+                            <h3>Recent Post</h3>
+                            <ul>
+                                <li class="text"><a href="#">Rooms decoration package</a></li>
+                                <li class="text"><a href="#">Dinning Materials</a></li>
+                                <li class="text"><a href="#">Event Furniture</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-item">
+                            <h3>Our Portfolio</h3>
+                            <ul>
+                                <li class="text"><a href="#">EFTA Design</a></li>
+                                <li class="text"><a href="#">County Hall Decoration</a></li>
+                                <li class="text"><a href="#">SOO Conference</a></li>
+                                <li class="text"><a href="#"> Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-end bg-dark">
+                    <div class="container grid">
+                        <p class="text text-white text-center">&copy; Copyright 2022. All Right Reserved.Asma Afifi</p>
+                        <div class="flex payment">
+                            <img src="images/pay_1.png">
+                            <img src="images/pay_2.png">
+                            <img src="images/pay_3.png">
+                            <img src="images/pay_4.png">
+                            <img src="images/pay_5.png">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        <!-- end of footer -->
+    
+
+
+
+
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    <script src="js/Home.js"></script>
+    <script src="js/product.js"></script>
+ 
+
+
+
+</body>
+
+</html>

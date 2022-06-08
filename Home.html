@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Site</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <!-- normalize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom utilities css -->
+    <link rel="stylesheet" href="css/utilities.css">
+    <!-- custom main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/task2.css">
+
+</head>
+
+<body>
+
+    <div class="holder">
+        <!-- navbar -->
+        <nav class="navbar bg-brown flex">
+            <div class="container flex">
+                <div class="toggler-and-category bg-brown text-white flex">
+                    <button type="button" class="btn navbar-show-btn text-white">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="category-list">
+                        <span>Category</span>
+                        <button type="button" class="btn category-toggler-btn text-white">
+                            <i class="fas fa-circle-arrow-down"></i>
+                        </button>
+                    </div>
+
+                    <!-- side navbar -->
+                    <ul id="side-navbar" class="bg-white text-uppercase">
+                        <button type="button" class="btn navbar-hide-btn text-dark">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <li><a href="./test.html">home</a></li>
+                        <!-- <li><a href=".">featured</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">shop</a></li> -->
+                        <li><a href="./product.html">about</a></li>
+                        <li><a href="./Contact.html">contact</a></li>
+                    </ul>
+                    <!-- end of side navbar -->
+
+                  
+                </div>
+
+
+                <!-- main navigation list -->
+                <div class="navbar-collapse flex">
+                    <!-- nav list -->
+                    <ul class="navbar-nav text-uppercase">
+                        <li class="nav-item">
+                            <a href="./Home.html" class="nav-link active-link">
+                                <span class="nav-link-text">home</span>
+                                <span class="dropdown-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="nav-link-text">featured</span>
+                                <span class="dropdown-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="nav-link-text">shop</span>
+                                <span class="dropdown-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="nav-link-text">blog</span>
+                                <span class="dropdown-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./product.html" target="_blank" class="nav-link">
+                                <span class="nav-link-text">about</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./Contact.html" target="_blank" class="nav-link">
+                                <span class="nav-link-text">contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- end of nav list -->
+
+                    <!-- account icons -->
+                    <div class="account-info">
+                        <a href="#" class="btn text-white">
+                            <i class="fas fa-person"></i>
+                        </a>
+                        <a href="#" class="btn text-white">
+                            <i class="fas fa-shopping-basket"></i>
+                        </a>
+                    </div>
+                    <!-- end of account icons -->
+                </div>
+                <!-- end of main navigation list -->
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- Slider Area -->
+            <section class="row" style="display: flex;" id="slider_show">
+            
+                <button id="prevbtn"class="fa-solid fa-angle-left fa-2x" ></button>
+                 <img id="sliderImgs" src="./images/slid4.gif"> 
+                <button id="nextbtn" class="fa-solid fa-chevron-right fa-2x"></button>
+              
+            
+            </section>
+
+        <!--  End Slider Area -->
+        <!-- dummuy scection -->
+        <section id="lifeStage ">
+            <h3 class="hformate">Furniture For Every Life Stage</h3>
+            <hr class="hrFormate">
+            <div class="container">   
+                <div class="row"> 
+                    <img  class ="col-3 dumySec" src="./images/Bachelors.jpg" class="dumySec"style="display:inline-block">
+                    <img src="./images/Couples.jpg" class="dumySec"style="display:inline-block">
+                    <img  src="./images/family.jpg" class="dumySec" style="display:inline-block">
+                </div>
+            </div>
+        
+        </section>
+        <!--  End dummuy scection -->
+
+
+        <!-- main content -->
+        <main>
+            <!-- top new products section -->
+            <section id="new-products" class="new-products py bg-light-grey-color-shade">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <h2>top new products</h2>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <div class="line"></div>
+                    </div>
+                    <div id="showCh">
+                        <button class="cat fa-solid fa-list-ul fa-2x" id="ALLUsers"></button>
+                        <button class="cat fa-solid fa-bed-pulse fa-2x" value="bed"></button>
+                        <button class="cat fas fa-couch fa-2x" value="Sofa"></button>
+                        <button class="cat fa-solid fa-chair fa-2x" value="Chair"></button>
+                        <!-- <button class="cat fa-solid fa-mug-hot fa-2x" value="Coffe"></button>
+                        <button class="cat fa-solid fa-circle-star " value="Decore"></button> -->
+
+                        <!-- <button class=" cat fa-solid fa-plate-utensils fa-2x" value="dining"></button> -->
+                        <!-- <button class="cat fa-solid fa-mug-hot fa-2x" value="Coffe"></button> -->
+                        <!-- <button class="cat fa-solid fa-plate-utensils fa-2x" value="dining"></button>-->
+                         
+                    </div>
+
+                    <div class="new-products-content grid" id="test">
+                        <div class="new-product-item">
+                            
+                        </div>
+
+                      
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- feedback section -->
+            <section class="feedback py bg-light-grey-color-shade" id="feedback">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <h2>Feedback</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="feedback-inner">
+                        <div class="feedback-container grid">
+                            <div class="feedback-item bg-white text-center" data-id="1">
+                                <img src="images/quote-icon-dark.png" class="quote-icon">
+                                <p class="text text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                                    corporis delectus, eaque consectetur ullam rerum?</p>
+                                <div class="client">
+                                    <img src="images/client-1.jpg">
+                                </div>
+                            </div>
+
+                            <div class="feedback-item bg-white text-center" data-id="2" id="feedback-display">
+                                <img src="images/quote-icon.png" class="quote-icon">
+                                <p class="text text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                                    corporis delectus, eaque consectetur ullam rerum?</p>
+                                <div class="client">
+                                    <img src="images/client-2.jpg">
+                                </div>
+                            </div>
+
+                            <div class="feedback-item bg-white text-center" data-id="3">
+                                <img src="images/quote-icon-dark.png" class="quote-icon">
+                                <p class="text text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                                    corporis delectus, eaque consectetur ullam rerum?</p>
+                                <div class="client">
+                                    <img src="images/client-3.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback-btns flex">
+                        <button class="feedback-btn feedback-active-btn"></button>
+                        <button class="feedback-btn"></button>
+                        <button class="feedback-btn"></button>
+                    </div>
+                </div>
+            </section>
+            <!-- end of feedback section -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- footer -->
+    <footer class="footer bg-light-brown" id="footer">
+        <div class="container">
+            <div class="footer-content py grid text-center">
+                <div class="footer-item">
+                    <h3>Furnish.com</h3>
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorem
+                        consequuntur saepe tenetur deserunt harum error quae sint voluptas sunt, autem, totam
+                        amet
+                        officiis nesciunt eos cupiditate ipsa!</p>
+                    <ul class="social-links flex">
+                        <li>
+                            <a href="https://www.facebook.com" class="flex"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex"><i class="fab fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer-item">
+                    <h3>Contact Us</h3>
+                    <p class="text">123, ITI Street, Shiben Elkoum, Menfia, Egypt</p>
+                    <p class="text">Phone: +01099036072</p>
+                    <p class="text">Email: asma.m.afifi@gmail.com</p>
+                </div>
+    
+                <div class="footer-item">
+                    <h3>Recent Post</h3>
+                    <ul>
+                        <li class="text"><a href="#">Rooms decoration package</a></li>
+                        <li class="text"><a href="#">Dinning Materials</a></li>
+                        <li class="text"><a href="#">Event Furniture</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-item">
+                    <h3>Our Portfolio</h3>
+                    <ul>
+                        <li class="text"><a href="#">EFTA Design</a></li>
+                        <li class="text"><a href="#">County Hall Decoration</a></li>
+                        <li class="text"><a href="#">SOO Conference</a></li>
+                        <li class="text"><a href="#"> Events</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-end bg-dark">
+            <div class="container grid">
+                <p class="text text-white text-center">&copy; Copyright 2022. All Right Reserved.Asma Afifi</p>
+                <div class="flex payment">
+                    <img src="images/pay_1.png">
+                    <img src="images/pay_2.png">
+                    <img src="images/pay_3.png">
+                    <img src="images/pay_4.png">
+                    <img src="images/pay_5.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    <script src="js/Home.js"></script>
+    <script src="js/product.js"></script>
+
+
+</body>
+
+</html>
