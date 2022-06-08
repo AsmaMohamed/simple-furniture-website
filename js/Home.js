@@ -13,8 +13,8 @@ function getFileName(inputaddress) {
 //slider work
 
 //Get Image
-var imgSliderArry = new Array(6);
-for (var i = 0; i < imgSliderArry.length-1; i++){
+var imgSliderArry = new Array(5);
+for (var i = 0; i < imgSliderArry.length; i++){
     imgSliderArry[i]= "./images/slid"+i+".jpg";
 }
 // check work arry
@@ -65,8 +65,8 @@ function nxt_img() {
     imgID++;
      sliderImgs.setAttribute("src", imgSliderArry[imgID]);
 
-    if (imgID == imgSliderArry.length) {
-        imgID =1;
+    if (imgID == imgSliderArry.length-1) {
+        imgID =0;
     }
 }
 nextbtn.addEventListener("click", nxt_img);
