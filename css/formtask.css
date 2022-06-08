@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+/* Header Space */
+/* header {
+    display: inline-block;
+} */
+
+
+
+
+
+/*Section space*/
+
+
+
+
+/*Section        form          space*/
+section #form-img{
+    /* width: 40%; */
+    height: 90%;
+    margin-left:10% ;
+}
+details{
+    display: inline;
+} 
+form{
+    margin-top: 60px;
+    margin-left: 5%;
+
+}
+form input{
+
+    
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    display:block;
+    margin: 4% 2% 2% 2%;
+    font-size: 20px;
+    border-radius: 25px;
+    transition: .3s border-color;
+    padding: 10px;
+    
+    
+}
+form output{
+    margin: 2% 1% 1% 1%;
+    color: red;
+    display: block;
+}
+form label{
+    display: inline;
+    margin-left: 1%;
+    font-size: 25px;
+
+}
+#usersal{
+    display: inline;
+    
+}
+input[range]{
+ color: #45C8BC;
+}
+form button{
+    border-radius: 40px;
+    font-size: 25px;
+    margin-top: 5%;
+    padding: 10px;
+    background-color: #EF8B59;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer  space*/
+
+footer #sitelogo {
+    /* position: absolute; */
+
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 40%;
+
+}
+
+footer #part2 {
+    margin-top: 1%;
+}
+
+
+footer #part2 div {
+
+    display: inline-block;
+    padding: 20px;
+}
+
+footer #part2 #icons {
+    margin-left: 60%;
+    margin-right: 3%;
+}
+
+footer #part2 #icons img {
+    width: 25px;
+    border-radius: 50%;
+}

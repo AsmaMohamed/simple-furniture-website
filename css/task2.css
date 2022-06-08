@@ -1,0 +1,169 @@
+#slider_show {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+
+}
+
+#slider_show #sliderImgs {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100%;
+
+}
+
+
+#nextbtn {
+    display: inline;
+    position: absolute;
+    top: 50%;
+
+    width: 3%;
+    height: 6%;
+    /* background-image: url("./"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0px;
+
+
+}
+
+#prevbtn {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    border: 0px;
+    /* background: none;  */
+    width: 3%;
+    height: 6%;
+    /* background-image: url(./images/back.png); */
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+
+
+
+}
+
+#nextbtn {
+    right: 0%;
+}
+
+.cat {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 3%;
+
+}
+#myBtn {
+display: none;
+/* Hidden by default */
+position: fixed;
+/* Fixed/sticky position */
+bottom: 20px;
+/* Place the button at the bottom of the page */
+right: 30px;
+/* Place the button 30px from the right */
+z-index: 99;
+/* Make sure it does not overlap */
+border: none;
+/* Remove borders */
+outline: none;
+/* Remove outline */
+background-color: #555;
+/* Set a background color */
+color: white;
+/* Text color */
+cursor: pointer;
+/* Add a mouse pointer on hover */
+padding: 15px;
+/* Some padding */
+border-radius: 10px;
+/* Rounded corners */
+font-size: 18px;
+/* Increase font size */
+}
+
+#myBtn:hover {
+    background-color:#EF8B59;
+    /* Add a dark-grey background on hover */
+}
+
+
+
+/* < !-- dummuy scection --> */
+#lifeStage {
+    width: 100%;
+    border: 0 1px 0 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+
+.hformate {
+    font-size: 30px;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+
+.hrFormate {
+    width: 10%;
+    color: #ED7146;
+    margin-left: 45%;
+    margin-bottom: 3%;
+}
+
+.dumySec {
+    width: 25%;
+    margin-left: 5%;
+
+
+}
+
+.dumySec:hover {
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+/* .dumySec:hover {
+    transform: scale(1.1);
+
+} */
+/******Product Area*/
+
+
+/* @media screen and (min-width:700px) {
+    .headerbar ul {
+        width: 50%;
+        margin-top: 8%;
+
+
+    }
+
+    .headerbar ul li {
+        font-size: 17px;
+    }
+
+    .searchBox {
+        width: 60%;
+        height: 20px;
+        right: 0%;
+    }
+
+    .product {
+        width: 55%;
+        margin-bottom: 18%;
+    }
+
+    .dumySec {
+        width: 60%;
+    }
+    .sticker{
+        width: 30px;
+        height: 30px;
+
+    }
+
+} */
